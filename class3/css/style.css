@@ -1,0 +1,54 @@
+h1 {
+    color: blue;
+    text-align: center;
+
+    font-family: Microsoft JhengHei;    /*改字體*/
+    border: 3px solid blue;           /*有框線*/
+    border-radius: 15px;                /*框框變圓*/
+    box-shadow: 3px 3px 10px gray;    /*看起來像浮起來*/
+
+    width: 300px;/**/
+    margin: auto;                       /*外邊距*/
+}
+
+
+p {
+    color: blue;
+    text-align: center;
+    opacity: 0.5;                       /*透明度*/
+}
+
+li {
+    text-align: center;
+}
+
+#org {
+    color: orange;
+}
+
+#red {
+    color: red;
+}
+#yel {
+    color: yellow;
+}
+
+
+
+/*flexbox 我也不確定應該是吧*/
+.container {
+    display: flex;
+    justify-content: center;               /*置中*/
+    gap: 20px;                             /*隔出間隔*/
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+
+    border: 1px solid black;
+    border-radius: 10px;                   /*框框變圓*/
+
+    text-align: center;
+    line-height: 80px;
+}

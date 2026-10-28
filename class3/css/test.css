@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+    text-align: center;
+
+    font-family: "Microsoft JhengHei";
+    border: 2px solid blue;
+    border-radius: 15px;
+
+    width: 300px;
+    margin: auto;
+
+    box-shadow: 3px 3px 10px gray;
+}
